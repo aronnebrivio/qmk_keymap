@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         file:
-          - aronnebrivio.json
+          - keyboards/ymdk/ymd40/air40/keymaps/aronnebrivio/keymap.json
 
     steps:
       - name: Disable git safe directory checks
